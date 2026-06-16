@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Outfit Recommendation Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Outfit Recommendation Chatbot</h1>
+
+        <div id="chat-box" class="chat-box">
+            <div class="bot-message">
+                Hello! Tell me your gender and the weather. Example: 
+                <b>I am male and it is hot today.</b>
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Type your message here...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        async function sendMessage() {
+            const input = document.getElementById("user-input");
+            const message = input.value.trim();
+
+            if (message === "") {
+                return;
+            }
+
+            const chatBox = document.getElementById("chat-box");
+
+            chatBox.innerHTML += `
+                <div class="user-message">
+                    <b>You:</b> ${message}
+                </div>
+            `;
+
+            input.value = "";
+
+            const response = await fetch("/chat", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    message: message
+                })
+            });
+
+            const data = await response.json();
+
+            chatBox.innerHTML += `
+                <div class="bot-message">
+                    <b>Bot:</b> ${data.reply}
+                </div>
+            `;
+
+            if (data.images && Object.keys(data.images).length > 0) {
+                let imageHtml = `<div class="outfit-images">`;
+
+                if (data.images.shirt) {
+                    imageHtml += `
+                        <div class="item-card">
+                            <h3>Shirt</h3>
+                            <img src="${data.images.shirt}" alt="Shirt">
+                        </div>
+                    `;
+                }
+
+                if (data.images.pants) {
+                    imageHtml += `
+                        <div class="item-card">
+                            <h3>Pants</h3>
+                            <img src="${data.images.pants}" alt="Pants">
+                        </div>
+                    `;
+                }
+
+                if (data.images.shoes) {
+                    imageHtml += `
+                        <div class="item-card">
+                            <h3>Shoes</h3>
+                            <img src="${data.images.shoes}" alt="Shoes">
+                        </div>
+                    `;
+                }
+
+                imageHtml += `</div>`;
+
+                chatBox.innerHTML += imageHtml;
+            }
+
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        document.getElementById("user-input").addEventListener("keydown", function(event) {
+            if (event.key === "Enter") {
+                sendMessage();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+# Greetings
+
+hi => Hello! How can I help you today? || Hi there! Tell me your gender and the weather. || Hey! Ready for an outfit suggestion? || Hello! I can help you choose a suitable outfit.
+hello => Hi there! You can ask me something like: I am male and it is hot today. || Hello! I can recommend a shirt, pants, and shoes. || Hey! Tell me if the weather is hot or cold. || Hello! What outfit do you need today?
+hey => Hey! Ready for an outfit recommendation? || Hey there! Tell me your gender and the weather. || Hey! I can help you choose clothes for hot or cold weather.
+yo => Yo! Tell me your gender and the weather, and I will suggest an outfit. || Yo! Ready to find a suitable outfit?
+good morning => Good morning! Tell me your gender and whether the weather is hot or cold. || Good morning! I can help you choose a comfortable outfit today.
+good afternoon => Good afternoon! I am ready to suggest an outfit for you. || Good afternoon! Tell me your gender and the weather.
+good evening => Good evening! Tell me your gender and the weather condition. || Good evening! I can help you choose something suitable to wear.
+good night => Good night! If you need an outfit suggestion later, just tell me your gender and the weather.
+
+# Help and guidance
+
+help => I can recommend one shirt, one pair of pants, and one pair of shoes. Please tell me your gender and the weather. || I can help you choose an outfit. Try saying: I am female and it is cold today.
+what can you do => I can suggest outfits based on male/female and hot/cold weather. || I can recommend a shirt, pants, and shoes based on your message.
+how to use => Type something like: I am female and it is cold today. || Tell me your gender and whether the weather is hot or cold.
+how does this work => I read your message, detect your gender and weather, then recommend suitable clothing images. || I use your gender and weather condition to choose a shirt, pants, and shoes.
+what should i type => You can type something like: I am male and it is hot today. || Try asking: I am female and the weather is cold.
+give me an example => Example: I am male and it is hot today. || Example: I am female and it is cold today.
+example => Try this: I am male and it is hot today. || You can ask: I am female and the weather is cold.
+
+# Identity
+
+who are you => I am an outfit recommendation chatbot. || I am a chatbot that helps users choose outfits based on gender and weather.
+what are you => I am an outfit assistant chatbot. || I am a simple AI assistant for outfit recommendation.
+are you a chatbot => Yes, I am a chatbot designed to recommend outfits. || Yes. I can help you choose suitable clothing.
+are you ai => Yes, I am an AI-style chatbot for outfit recommendation. || I use chatbot logic to understand your request and suggest outfits.
+what is your name => I am your outfit recommendation assistant. || You can call me your outfit chatbot.
+
+# Project/service information
+
+what is this app => This app recommends suitable outfits based on gender and weather. || This is an outfit recommendation chatbot.
+what does this app do => This app suggests one shirt, one pair of pants, and one pair of shoes. || It helps users choose outfits for hot or cold weather.
+what is the purpose of this app => The purpose is to help users quickly choose suitable clothes based on simple conditions. || This app helps users decide what to wear.
+what categories do you support => I currently support male/female and hot/cold weather. || The supported categories are male_hot, male_cold, female_hot, and female_cold.
+what weather do you support => I currently support hot and cold weather. || The system supports only hot and cold weather for now.
+what gender do you support => I currently support male and female. || The system supports male and female categories.
+do you support rainy weather => Not yet. The current system only supports hot and cold weather. || Rainy weather is not supported in this version.
+do you support formal outfit => Not yet. This version focuses on simple outfit suggestions for hot and cold weather.
+do you support children => Not yet. This version only supports general male and female outfit categories.
+can you recommend accessories => Not yet. This version recommends only a shirt, pants, and shoes.
+can you recommend jacket => If the weather is cold, the system may recommend warmer clothing depending on the available images. || The current version mainly selects from shirts, pants, and shoes.
+
+# Positive reactions
+
+nice => Glad you like it! || Nice! I am happy the recommendation helped.
+great => Great! I am glad to help. || Great! Ask me anytime you need another outfit.
+cool => Cool! Tell me your gender and weather if you want an outfit. || Cool! I can help with another recommendation.
+awesome => Awesome! I am glad you like it. || Awesome! Ready for another outfit suggestion?
+good => Good to hear! || Great! I am ready to help with another outfit.
+perfect => Perfect! Glad the suggestion works for you. || Perfect! Let me know if you need another outfit.
+i like it => Glad you like it! || Happy to hear that!
+that looks good => Glad you think so! || Nice! That outfit should be suitable.
+beautiful => Thank you! I hope the outfit recommendation is useful. || Glad you like the style.
+amazing => Amazing! I am happy to help. || Thanks! Ready for another outfit idea?
+
+# Thanks
+
+thanks => You're welcome! || No problem! || Glad to help! || Anytime!
+thank you => You're welcome! || Happy to help! || No problem at all!
+thank you so much => You're very welcome! || Glad I could help you.
+thx => No problem! || You're welcome!
+ty => You're welcome! || No problem!
+appreciate it => You're welcome! || Glad to help!
+
+# Goodbye
+
+bye => Goodbye! || See you next time! || Bye! Stay comfortable and dress well.
+goodbye => Goodbye! Hope you like the outfit recommendation. || Goodbye! Come back anytime you need outfit help.
+see you => See you next time! || See you! Have a nice day.
+see ya => See you! || Bye! Stay stylish.
+later => See you later! || Later! Ask me anytime for outfit suggestions.
+talk to you later => Talk to you later! || Sure, see you next time.
+
+# Apology / confusion
+
+sorry => No problem! You can continue by telling me your gender and the weather. || That's okay! I am here to help.
+my bad => No worries! Tell me your gender and the weather when you are ready.
+i don't understand => No problem. Tell me if you are male or female, and whether the weather is hot or cold. || Try typing: I am male and it is hot today.
+i dont understand => No problem. Tell me if you are male or female, and whether the weather is hot or cold. || Try typing: I am female and it is cold today.
+i am confused => That's okay. You only need to tell me your gender and whether the weather is hot or cold. || No worries. Try: I am male and it is hot today.
+confused => No problem. The chatbot needs two things: gender and weather. || Try giving me your gender and weather condition.
+
+# Error-like user reactions
+
+wrong => Sorry about that. Please check if your message includes gender and weather clearly. || Sorry, I may not have understood correctly. Try saying: I am male and it is hot today.
+not correct => Sorry about that. Try giving your gender and weather more clearly. || I may have misunderstood. Please try again with male/female and hot/cold.
+bad answer => Sorry, I will try to help better. Please tell me your gender and the weather. || Sorry about that. Try asking again with clearer information.
+that is wrong => Sorry, I may have detected the wrong category. Please type something like: I am female and it is cold today.
+
+# Capability limits
+
+can you chat normally => I can answer some simple messages, but my main job is outfit recommendation. || I can do basic conversation, but I work best with outfit questions.
+can you answer anything => I am focused on outfit recommendation, so I may not answer unrelated questions well. || I mainly answer questions about this outfit recommendation system.
+can you help with homework => I am designed for outfit recommendation, not general homework help. || My main function is recommending outfits.
+can you tell jokes => I am mainly an outfit chatbot, but I can still try to keep the conversation friendly. || I focus on outfits, but I like a friendly chat too.
+are you like chatgpt => I am much simpler. I am designed specifically for outfit recommendation. || I am not as general as ChatGPT. I focus on this outfit project.
+
+# Asking for recommendation without enough detail
+
+recommend me something => Sure. Please tell me your gender and whether the weather is hot or cold. || I can recommend an outfit, but I need your gender and weather first.
+can you recommend an outfit => Yes. Please tell me your gender and whether it is hot or cold. || Sure. Try saying: I am male and it is hot today.
+i need an outfit => Sure. Tell me your gender and the weather condition. || I can help. Are you male or female, and is the weather hot or cold?
+help me choose clothes => Sure. Please tell me your gender and whether the weather is hot or cold. || I can help you choose clothes. Give me gender and weather first.
+what should i wear => I can help. Please include your gender and whether the weather is hot or cold. || Tell me your gender and weather, then I can recommend an outfit.
+
+# User asks about input requirements
+
+what information do you need => I need your gender and the weather condition. || Please provide male/female and hot/cold.
+what do you need from me => I need to know your gender and whether the weather is hot or cold. || Just tell me gender and weather.
+do you need my gender => Yes. The system uses gender to select the correct outfit category. || Yes, gender is needed for the current recommendation categories.
+do you need the weather => Yes. The system needs to know if the weather is hot or cold. || Yes, weather is required to choose suitable clothes.
+why do you need gender => The dataset is organized using male and female categories, so gender helps select suitable images. || Gender helps the system choose the correct outfit category.
+why do you need weather => Weather helps the system choose clothes suitable for hot or cold conditions. || Weather is needed because hot and cold outfits are different.
+
+# Dataset/image questions
+
+where do the images come from => The images come from the project dataset folders. || The system selects images from the Shirts, Pants, and Shoes folders.
+how do you choose images => The system searches the image filenames for the detected category, such as male_hot or female_cold. || I select one matching shirt, one matching pair of pants, and one matching pair of shoes.
+why no image => The dataset may not contain matching images for that category. || A matching image may be missing from one of the folders.
+image not found => Please check that the dataset folders contain filenames with the correct category label. || Make sure the image filenames include labels like male_hot or female_cold.
+why missing item => That item may not exist in the matching folder. Please add a matching image file. || The system could not find a matching file for that clothing type.
+
+# Casual general phrases
+
+ok => Okay! Tell me your gender and the weather when you are ready. || Okay! I am ready to suggest an outfit.
+okay => Okay! Tell me your gender and the weather. || Sure! What outfit do you need?
+alright => Alright! Give me your gender and weather condition. || Alright! I am ready.
+yes => Great! Please continue with your gender and the weather. || Yes, I am ready to help.
+no => No problem. You can ask again anytime. || Okay, let me know when you need an outfit.
+maybe => No problem. Tell me more when you are ready. || Maybe I can help if you provide gender and weather.
+hmm => Take your time. Tell me your gender and the weather when ready. || No rush. I am here to help.
+lol => Glad you are having fun! Need an outfit suggestion? || Haha! Tell me your gender and weather if you want a recommendation.
+
+# Polite conversation
+
+how are you => I am doing well and ready to suggest outfits. || I am ready to help you choose clothes.
+how are you doing => I am doing well! Ready for an outfit recommendation. || I am good. Tell me your gender and the weather.
+are you okay => Yes, I am ready to help with outfit recommendations. || Yes. Tell me your gender and weather when ready.
+good job => Thank you! I am glad to help. || Thanks! Ready for another recommendation.
+well done => Thank you! I am happy to help. || Thanks! Ask me anytime.
+
+# Vietnamese basic support
+
+xin chao => Xin chào! Hãy cho tôi biết giới tính và thời tiết nóng hay lạnh. || Xin chào! Tôi có thể gợi ý áo, quần và giày cho bạn.
+chao => Chào bạn! Hãy nhập giới tính và thời tiết để tôi gợi ý trang phục. || Chào bạn! Bạn có thể nhập: Tôi là nam và trời nóng.
+cam on => Không có gì! || Rất vui được giúp bạn!
+cảm ơn => Không có gì! || Rất vui được giúp bạn!
+tam biet => Tạm biệt! Hẹn gặp lại bạn. || Tạm biệt! Chúc bạn mặc đẹp và thoải mái.
+tạm biệt => Tạm biệt! Hẹn gặp lại bạn. || Chúc bạn một ngày tốt lành!
+ban la ai => Tôi là chatbot gợi ý trang phục dựa trên giới tính và thời tiết. || Tôi là trợ lý gợi ý outfit.
+bạn là ai => Tôi là chatbot gợi ý trang phục dựa trên giới tính và thời tiết. || Tôi là trợ lý gợi ý outfit.
+giup toi => Tôi có thể gợi ý áo, quần và giày. Hãy cho tôi biết bạn là nam hay nữ và trời nóng hay lạnh. || Hãy nhập giới tính và thời tiết để tôi gợi ý trang phục.
+giúp tôi => Tôi có thể gợi ý áo, quần và giày. Hãy cho tôi biết bạn là nam hay nữ và trời nóng hay lạnh. || Hãy nhập giới tính và thời tiết để tôi gợi ý trang phục.
+toi khong hieu => Không sao. Bạn chỉ cần cho tôi biết giới tính và thời tiết nóng hay lạnh. || Hãy thử nhập: Tôi là nam và trời nóng.
+tôi không hiểu => Không sao. Bạn chỉ cần cho tôi biết giới tính và thời tiết nóng hay lạnh. || Hãy thử nhập: Tôi là nữ và trời lạnh.
