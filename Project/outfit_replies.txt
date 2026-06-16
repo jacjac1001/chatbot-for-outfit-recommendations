@@ -1,7 +1,0 @@
-male_hot => For hot weather, a male user should wear a light shirt, comfortable pants, and breathable shoes. || A light and comfortable outfit is suitable for hot weather. Here is a good male hot-weather outfit. || Since the weather is hot, breathable clothing is the best choice. This outfit should feel cool and comfortable.
-
-male_cold => For cold weather, a male user should wear a warm shirt or hoodie, long pants, and closed shoes. || Since the weather is cold, a warmer outfit is recommended. This combination should help keep you comfortable. || A cold-weather outfit should be warmer and more covered. Here is a suitable recommendation.
-
-female_hot => For hot weather, a female user should wear a light top, comfortable pants or skirt, and breathable shoes. || Since the weather is hot, light and breathable clothing is recommended. This outfit should feel simple and comfortable. || A hot-weather outfit should feel cool and easy to wear. Here is a suitable recommendation.
-
-female_cold => For cold weather, a female user should wear a sweater or warm top, long pants, and closed shoes. || Since the weather is cold, warmer and more covered clothing is recommended. This outfit should help keep you comfortable. || A cold-weather outfit should provide warmth while still being comfortable. Here is a suitable recommendation.
